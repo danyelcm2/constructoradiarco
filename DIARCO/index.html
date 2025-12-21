@@ -142,6 +142,17 @@
     .reveal,.reveal.is-visible,.caption-anim,.referencia-item{animation:none!important;transition:none!important;opacity:1!important;transform:none!important;}
   }
 
+  /* Optimización para móviles en sección Servicios */
+  @media (max-width: 768px) {
+    #servicios .card-img-top {
+      height: 200px;
+      object-fit: cover;
+    }
+    #servicios .card {
+      margin-bottom: 1rem;
+    }
+  }
+
   /* Ajustes específicos para el carrusel principal en móviles */
   @media (max-width: 768px){
     #hero {
@@ -327,7 +338,7 @@
   min-height: 320px;
   color: var(--color-principal);
   font-size: 1.25rem;
-  background: url('/DIARCO/images/servicios/servicio2.jpeg') center/cover no-repeat;
+  background: url('images/servicios/mision.jpeg') center/cover no-repeat;
   box-shadow: 0 0 40px 10px rgba(255,255,255,0.7);
   overflow: hidden;
 }
@@ -348,7 +359,7 @@
   min-height: 320px;
   color: var(--color-principal);
   font-size: 1.25rem;
-  background: url('/DIARCO/images/servicios/servicio1.jpeg') center/cover no-repeat;
+  background: url('images/servicios/vision.jpeg') center/cover no-repeat;
   box-shadow: 0 0 40px 10px rgba(255,255,255,0.7);
   overflow: hidden;
 }
@@ -574,7 +585,7 @@
     </div>
     <div class="col-md-4 reveal">
       <div class="card h-100">
-        <img src="images/servicios/servicio4.jpeg" class="card-img-top" alt="Plantas de Tratamiento">
+        <img src="images/servicios/servicio5.jpeg" class="card-img-top" alt="Plantas de Tratamiento">
         <div class="card-body">
           <h5 class="card-title">Plantas de Tratamiento</h5>
           <p class="card-text">Drenajes pluviales y aguas residuales sostenibles.</p>
@@ -583,7 +594,7 @@
     </div>
     <div class="col-md-4 reveal">
       <div class="card h-100">
-        <img src="images/servicios/servicio4.jpeg" class="card-img-top" alt="Cimentaciones y Concreto">
+        <img src="images/servicios/servicio6.jpeg" class="card-img-top" alt="Cimentaciones y Concreto">
         <div class="card-body">
           <h5 class="card-title">Cimentaciones y Concreto</h5>
           <p class="card-text">Cimentaciones sólidas y moldes en concreto.</p>
